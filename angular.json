@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "projects": {
+    "portfolio-s1": {
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "architect": {
+        "build": {
+          "options": {
+            "outputPath": "dist/portfolio-s1",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "styles": ["src/styles.css"]
+          }
+        }
+      }
+    }
+  }
+}
